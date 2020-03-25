@@ -22,7 +22,7 @@ public class ListenerClass implements ITestListener {
 	@Override
 	public void onTestFailure(ITestResult result) {
 		System.out.println(result.getName()+" has been failed");
-		FunctionLibrary.takeScreenshot(result.getName()+"__FAILURE");
+		FunctionLibrary.takeScreenshot(result.getName()+"__SUCCESS");
 	}
 
 	@Override

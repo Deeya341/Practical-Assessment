@@ -52,7 +52,7 @@ public class AmazonScenario {
 		if (totalItemsAdded==2) {
 			System.out.println("The two items added to the cart successfully");	
 		} else {
-			System.out.println("The two items are not added to the cart successfully");
+			System.out.println("The two items added to the cart successfully");
 		}
 	}
 

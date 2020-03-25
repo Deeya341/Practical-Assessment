@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sample Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://www.amazon.in/"/>
+  <test name="Sample Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.amazon.in/"/>
+    <classes>
+      <class name="test.ScenarioTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="selectTwo"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- test.ScenarioTest -->
+    </classes>
+  </test> <!-- Sample Test(failed) -->
+</suite> <!-- Failed suite [Sample Suite] -->
